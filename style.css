@@ -1,0 +1,48 @@
+body{
+    background:#202124;
+    color:white;
+    font-family:Arial;
+    text-align:center;
+}
+
+.section{
+    margin:50px auto;
+    width:900px;
+}
+
+.section h2{
+    text-align:left;
+    margin-bottom:25px;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr); /* Always 2 images per row */
+    gap:35px;
+}
+
+.item{
+    background:#333;
+    padding:20px;
+    border-radius:12px;
+}
+
+.item img{
+    width:100%;
+    max-width:300px;
+}
+
+button{
+    margin-top:12px;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+#counter{
+    position:fixed;
+    top:20px;
+    right:20px;
+    background:#444;
+    padding:10px 15px;
+    border-radius:8px;
+}
